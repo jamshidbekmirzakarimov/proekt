@@ -1,0 +1,26 @@
+header{
+    background: rgb(87, 87, 87);
+}
+nav {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  margin: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  background: #777777;
+  border-radius: 5px;
+  color: white;
+  padding: 15 25px;
+  border: none;
+}

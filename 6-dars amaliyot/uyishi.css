@@ -34,6 +34,7 @@ header ul {
 header ul li {
   list-style: none;
   font-size: 15px;
+  white-space: nowrap;
 }
 header ul li a {
   display: inline-block;

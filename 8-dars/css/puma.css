@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Happy+Monkey&family=Inter:wght@300;500;600&family=Karla:wght@400;700&family=Libre+Franklin:wght@400;600&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,500&family=Source+Serif+Pro:wght@400;600&family=Tenor+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    #ee5514 1.14%,
+    rgba(238, 85, 20, 0) 133.88%
+  );
+}
+.Navigation-box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 230px;
+  padding-right: 230px;
+  align-items: center;
+  z-index: 12;
+}
+.Navigation-img {
+  margin-top: 47px;
+  width: 94px;
+  height: 44px;
+}
+.navigation-box-list {
+  display: flex;
+  list-style: none;
+  width: 331px;
+  height: 26px;
+  align-items: center;
+  margin-top: 56px;
+}
+.navigation-box-list-inline {
+  margin-left: 40px;
+}
+.navigation-box-link {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+.navigation-box-link:hover {
+  color: #ee5514;
+  transition: all 0.2s linear;
+}
+.navigation-button {
+  margin-top: 40px;
+  padding: 15px 30px 15px 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #ee5514;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.header-content {
+  margin-left: 230px;
+  margin-right: 230px;
+  display: flex;
+  align-items: center;
+}
+.header-box-title {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 120%;
+  color: #1a0a03;
+  width: 600px;
+  height: 61;
+  margin-top: 114px;
+  margin-bottom: 20px;
+}
+.header-box-title-span {
+  color: #ee5514;
+}
+.header-box-subtitle {
+  width: 326px;
+  height: 52px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+.header-box-end {
+  display: flex;
+}
+.header-box-img {
+  margin-left: -149px;
+  width: 598px;
+  height: 400px;
+}
+.header-box-border {
+  width: 394px;
+  height: 400px;
+  opacity: 0.4;
+  border: 11px solid #ee5514;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.header-box-img-right {
+  margin-left: 40px;
+  border-radius: 50%;
+}
+.header-box-summ {
+  width: 792px;
+  height: 125px;
+  background: #ffffff;
+  box-shadow: 0px 1px 14px rgba(26, 10, 3, 0.05);
+  border-radius: 5px;
+  margin-left: 230px;
+}
+.header-box-list {
+  list-style: none;
+  display: flex;
+  opacity: 0.7;
+  padding-left: 55px;
+  padding-right: 65px;
+  padding-top: 30px;
+}
+.header-box-list-inline {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.7;
+  margin-left: 108;
+}
+
+.header-box-summ {
+  padding-left: 55px;
+  padding-right: 65px;
+  padding-top: 30px;
+}
+.section-video-content {
+  padding-left: 230px;
+  padding-right: 180px;
+  display: flex;
+  align-items: center;
+}
+.section-video-content-box {
+  padding-top: 253px;
+}
+.section-video-content-box-title {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #ee5514;
+}
+.section-video-content-box-subtitle {
+  width: 340px;
+  height: 114px;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  color: #1a0a03;
+}
+.section-video-content-box-text {
+  width: 326px;
+  height: 78px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.7;
+}
+.section-video-content-box-img {
+  width: 605px;
+  height: 380px;
+  margin-left: 100px;
+  margin-bottom: 140px;
+}
+.section-feature-content-title {
+  text-align: center;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ee5514;
+  margin-bottom: 10px;
+}
+.section-feature-content-subtitle {
+  text-align: center;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  color: #1a0a03;
+  margin-bottom: 60px;
+}
+.section-feature-content {
+  display: flex;
+  justify-content: center;
+}
+.section-feature-content-shoes {
+  display: flex;
+}
+.section-feature-content-shoes-chance {
+  width: 360px;
+  height: 423px;
+  background: #ffffff;
+  box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.05);
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-bottom: 140px;
+}
+.section-feature-content-shoes-chance:hover {
+  background: #ee55142f;
+  transition: all 0.5s linear;
+}
+.img-chance {
+  padding: 41.37px 33px 29.91px 35.31px;
+  background: #1265e123;
+  border-radius: 50%;
+  margin: 56px 111px 38px 109px;
+}
+.section-feature-content-shoes-chance-title {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a0a03;
+  margin-bottom: 10px;
+}
+.section-feature-content-shoes-chance-subtitle {
+  width: 239px;
+  height: 44px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #1a0a03;
+  opacity: 0.7;
+  margin-left: 60px;
+  margin-right: 61px;
+  margin-bottom: 20px;
+}
+.section-feature-content-shoes-learn-more-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.section-feature-content-shoes-learn-more-word {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ee5514;
+  margin-right: 10px;
+}
+.container {
+  padding-left: 230px;
+  padding-right: 230px;
+}
+.section-gallary-title {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #ee5514;
+  margin-bottom: 13px;
+}
+.section-gallary-subtitle {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  color: #1a0a03;
+  margin-bottom: 16px;
+}
+.section-gallary-categories {
+  display: flex;
+  align-items: center;
+}
+.section-gallary-categories-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #1a0a03;
+  opacity: 0.7;
+  padding-bottom: 7px;
+}
+.section-gallary-categories-list {
+  display: flex;
+  list-style: none;
+  margin-left: 35px;
+  align-items: center;
+}
+.section-gallary-categories-list-inline {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #1a0a03;
+  opacity: 0.7;
+  margin-left: 45px;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+.section-gallary-categories-list-inline:hover {
+  color: #ee5514;
+  border-bottom: 1px solid #ee5514;
+  transition: all 0.5s linear;
+}
+.section-gallary-right {
+  margin-left: 250px;
+  display: flex;
+}
+.gallary-img {
+  margin-left: 50px;
+  padding: 17px 21px;
+  background: #ee551433;
+  border-radius: 50%;
+  margin-bottom: 7px;
+}
+.section-gallary-box {
+  margin-top: 61px;
+  display: flex;
+  justify-content: center;
+}
+.section-gallary-box-typs {
+  margin-left: -30px;
+  margin-bottom: 140px;
+}
+.section-gallary-typs-shoes {
+  width: 263px;
+  height: 170px;
+}
+.section-gallary-box-typs-title {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: #1a0a03;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.section-gallary-box-typs-subtitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.9;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.section-gallary-box-typs-subtitle-span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.7;
+  margin-right: 10px;
+}
+.gallary-button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 25px;
+  padding: 15px 30px 15px 30px;
+  background: #ee5514;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.section-testimonials-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.section-testimonials-title {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  color: #1a0a03;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.Testimonials-img {
+  width: 555px;
+  height: 364px;
+}
+.section-testimonials-content-box-end-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-testimonials-content-box-end {
+  margin-left: 127px;
+}
+.Testimonials-user-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+.section-gallary-right-end {
+  margin-left: 100px;
+  display: flex;
+}
+.gallary-img-end {
+  margin-left: 50px;
+  padding: 17px 21px;
+  background: #ee551433;
+  border-radius: 50%;
+}
+.quote-img {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.section-testimonials-content-box-end-text-praise {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: #1a0a03;
+  margin-bottom: 15.61px;
+}
+.section-testimonials-content-box-end-text-comment {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.7;
+  margin-bottom: 25.39px;
+}
+.section-testimonials-content-box-end-text-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1a0a03;
+  margin-bottom: 9.61px;
+}
+.section-testimonials-content-box-end-text-Athletic {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #1a0a03;
+  opacity: 0.8;
+}
+.article-content {
+  display: flex;
+  align-items: center;
+}
+.article-content-box {
+  width: 788px;
+  height: 290px;
+  background: #81a8da;
+  border-radius: 0px 10px 10px 0px;
+}
+.article-puma-img {
+  width: 488px;
+  height: 334px;
+}

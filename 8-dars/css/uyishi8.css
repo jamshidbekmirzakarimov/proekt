@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+.Navigation-box {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo-image {
+  width: 119.95px;
+  height: 23.99px;
+  margin-top: 13px;
+  margin-bottom: 13.01px;
+  margin-left: 165px;
+}
+.Navigation-box-start {
+  display: flex;
+}
+.Navbar-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 16px;
+  margin-bottom: 17px;
+}
+.Navbar-list-inline {
+  margin-left: 40px;
+  align-items: center;
+}
+.Navbar-list-inline-link {
+  text-decoration: none;
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  line-height: 17px;
+  color: #343434;
+  font-weight: 700;
+}
+.Navigation-box-end {
+  display: flex;
+  align-items: center;
+}
+.navigation-user {
+  display: flex;
+  align-items: center;
+  margin-right: 165px;
+}
+.search-icon {
+  padding: 15px 13px 11px 13px;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+}
+.bell-icon {
+  padding: 13px;
+  border-right: 1px solid #808080;
+}
+.user-image {
+  margin: 9px 13px 9px 18px;
+}
+.Navigation-box-title {
+  margin: 10px 51px 10px 13px;
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  line-height: 17px;
+  color: #343434;
+}
+.Navigation-sutitle {
+  font-family: 'SF Pro Display';
+  font-size: 10px;
+  line-height: 12px;
+  color: #ababab;
+}
+.header-box {
+  margin: 40px 165px 90px 165px;
+  width: 414px;
+  height: 127px;
+  background: #fff;
+}
+.header-box-text {
+  display: flex;
+}
+.header-box-list {
+  align-items: center;
+  list-style: none;
+  padding: 32px 32px 4px 32px;
+  padding-left: 0;
+}
+.header-box-list-item {
+  display: flex;
+  margin-left: 34px;
+  font-family: 'SF Pro Display';
+  font-size: 12px;
+  line-height: 14px;
+  color: #343434;
+  margin-bottom: 4px;
+}
+.header-box-list-item-zero {
+  font-family: 'SF Pro Display';
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: #343434;
+  margin-right: 40px;
+}
+.header-box-list-item-zero-today {
+  font-family: 'SF Pro Display';
+  font-size: 12px;
+  line-height: 14px;
+  color: #e10c33;
+  font-weight: 800;
+  margin-left: 34px;
+  margin-bottom: 30px;
+}
+.section-title {
+  text-align: center;
+  font-family: 'SF Pro Display';
+  font-size: 30px;
+  line-height: 36px;
+  color: #111111;
+}
+.section-content {
+  width: 250px;
+  height: 357px;
+  background: #fff;
+  margin: 30px 166px 90px 166px;
+}
+.section-content-subtitle {
+  padding: 167px 102px 167px 50px;
+}
+.section-box-content-container {
+  margin-left: 65px;
+  margin-right: 165px;
+  display: flex;
+}
+.section-box-content-container-title {
+  font-family: 'SF Pro Display';
+  font-size: 30px;
+  line-height: 36px;
+  color: #111111;
+}
+.section-box-content-wrapper {
+  width: 350px;
+  height: 342px;
+  background: #fff;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-left: 30px;
+}
+.section-box-content-wrapper-title {
+  margin: 32px 256px 6px 32px;
+  display: flex;
+}
+.section-box-content-wrapper-title-subtitle-span {
+  font-weight: 900;
+}
+.section-box-content-wrapper-title-subtitle {
+  padding-left: 32px;
+  padding-right: 133px;
+  padding-bottom: 17px;
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  line-height: 17px;
+}
+.section-box-content-wrapper-title-subtitle-paragraf {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  line-height: 17px;
+  color: #343434;
+}
+.section-box-content-wrapper-button {
+  padding: 11px 14px 10px 14px;
+  margin-left: 32px;
+  background: #1dd1a1;
+  border-radius: 4px;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  line-height: 19px;
+  color: #f6fcfa;
+  border: none;
+}
+.arrow-right {
+  margin-left: 15px;
+}
+.footer-box {
+  height: 120px;
+  background: #093845;
+  display: flex;
+}
+.footer-box-logo {
+  padding: 38px 94px 13px 161px;
+}
+.footer-box-title {
+  margin-left: 161px;
+  font-family: 'SF UI Display';
+  font-size: 12px;
+  line-height: 14px;
+  color: #f6fcfa;
+  opacity: 0.6;
+}
+.footer-box-content{
+  display: flex;
+}
+.footer-box-line{
+  display: flex;
+  list-style: none;
+  padding-bottom: 53px;
+}
+.footer-box-content-line{
+  padding: 53px 131px 48px 93.91;
+}
+.fotter-box-line-inline{
+  margin-bottom: 48px;
+}
+.footer-box-img{
+  display: flex;
+}

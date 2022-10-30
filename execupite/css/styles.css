@@ -1,0 +1,15 @@
+body {
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+.sitenav-list { display: flex;
+  padding: 0;
+}
+.sitenav-link {
+  text-decoration: none;
+  color: #000;
+}
+.apply-button {
+  padding: 0;
+  border: 0;
+}
