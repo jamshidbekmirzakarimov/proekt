@@ -6,9 +6,10 @@ import "./App.css";
 function App() {
   const [data, setData] = React.useState([]);
   return (
-      <>
+    <>
+       
           <News data={data} setData={setData} />
-      </>
+    </>
   );
 }
 
